@@ -1,4 +1,5 @@
 import React from 'react';
+import './QuoteCard.css'
 
 const QuoteCard = ({ quote, character, image }) => (
     <figure className="QuoteCard">

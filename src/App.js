@@ -35,7 +35,7 @@ function App() {
   return (
       <div className="App">
         <QuoteCard quote={quote} />
-        <button type="button" onClick={getQuote}>Get quote</button>
+        <button className="GetQuote" type="button" onClick={getQuote}>Get quote</button>
       </div>
   );
 }
